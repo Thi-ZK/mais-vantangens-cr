@@ -1,0 +1,161 @@
+#all-container{
+	background-image: linear-gradient(to top right, rgb(0, 176, 250), rgb(148, 250, 215));
+	/*height: 150vh;*/
+	padding-top: 132px;
+}
+
+form{
+	font-family: 'Questrial', sans-serif;
+	color: white;
+	letter-spacing: 0.2px;
+	padding: 80px 120px 80px 120px;
+}
+
+#titles-and-description-container{
+	padding-bottom: 30px;
+}
+
+h2{
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 20px;
+	font-size: 36px;
+	/*text-transform: uppercase;*/
+	letter-spacing: 1.2px;
+}
+
+#form-sections-container{
+	padding-top: 37.5px;
+}
+
+.form-fields-section{
+	padding: 10px 0px 10px 0px;
+	display: flex;
+	/*align-items: center;*/
+	/*width: 50%;*/
+}
+
+.form-fields-section input, #message, select{
+	border: 0.5px solid rgb(230, 230, 230);
+	padding: 5px;
+	border-radius: 3px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 16px;
+	color: rgb(110, 110, 110);
+	margin-right: 20px;
+	width: 220px;
+}
+
+#email{
+	width: 472px; /*440 + margin between inputs*/
+}
+
+#cod-country, #ddd{
+	width: 94px;
+}
+
+#message{
+	width: 472px;
+	height: 100px;
+	resize: none;
+}
+
+#verification{
+	display: flex;
+	padding-top: 10px;
+}
+
+.form-fields-section p, #verification p{
+	width: 200px;
+}
+
+#form-aesthetic-line{
+	margin: 20px 0px 20px 0px;
+	width: 50%;
+	border-bottom: 1px solid white;
+}
+
+#submit-container button{
+	padding: 10px 24px 10px 24px;
+	text-transform: uppercase;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	border: 1px solid  white;
+	border-radius: 35px;
+	background: none;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	letter-spacing: 0.75px;
+	transition-duration: 0.6s;
+}
+
+#submit-container button:hover{
+	/*background-color: rgb(70, 70, 70);*/
+	background-color: white;
+	color: rgb(0, 176, 250);
+}
+
+
+@media(max-width: 1050px){
+	#all-container{
+		padding-top: 50px;
+		height: auto;
+	}
+}
+
+@media(max-width: 970px){
+	.form-fields-section, #verification{
+		flex-direction: column;
+	}
+	.form-fields-section input, #message, select{
+		margin: 10px 0px 10px 0px;
+	}
+	#titles-and-description-container{
+		padding-bottom: 15px;
+		line-height: 25px;
+	}
+}
+
+@media(max-width: 650px){
+	form{
+		padding: 80px 40px 80px 40px;
+	}
+
+	#email, #message{
+		width: 220px;
+	}
+
+	#verification p{
+		padding-bottom: 10px;
+	}
+
+	#form-sections-container, #submit-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#form-aesthetic-line{
+		display: none;
+	}
+
+	#submit-container{
+		padding-top: 40px;
+	}
+}
+
+@media(max-width: 450px){
+	form{
+		padding: 80px 20px 80px 20px;
+	}
+
+	h2{
+		line-height: 40px;
+		text-align: center;
+	}
+
+	#titles-and-description-container p {
+		text-align: center;
+		padding-top: 30px;
+	}
+}

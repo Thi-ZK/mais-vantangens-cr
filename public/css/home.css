@@ -1,0 +1,717 @@
+body{
+	overflow-x: hidden;
+}
+
+#background{
+	z-index: 2;
+	padding-top: 132px;
+}
+#background img{
+	width: 100vw;
+	height: 100vh;
+}
+#background-img-mob{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+}
+#background-gradient{
+	position: absolute;
+	background: linear-gradient(270deg,transparent 0,rgba(0, 0, 0, 1));
+	width: 99vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#background-gradient-content{
+	font-family: 'Quicksand', sans-serif;
+	padding: 50px 80px 100px 80px;
+	color: white;
+	letter-spacing: 0.3px;
+}
+#background-gradient h1{
+	font-weight: lighter;
+	font-size: 24px;
+}
+#text-slogan{
+	font-family: 'Cormorant Upright', serif;
+	padding-top: 10px;
+	font-style: italic;
+}
+#image-message{
+	padding-top: 60px;
+	font-size: 56px;
+	letter-spacing: 1px;
+	width: 45%;
+	text-transform: capitalize;
+	line-height: 65px;
+}
+#content-cotacao-button-container{
+	padding-top: 70px;
+}
+#content-cotacao-button-container p{
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	padding-bottom: 25px;
+}
+#cotacao-button-image{
+	color: white !important;
+	position: absolute;
+}
+
+
+
+
+
+/*JIEFANGBEI*/
+
+#jiefangbei-main-content-container{
+	padding: 140px 0px 40px 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+.jiefangbei-first-content-container{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 200px;
+}
+.jiefangbei-first-content-img-container{
+	padding-right: 3em;
+	width: 35%;
+	display: flex;
+	justify-content: flex-end;
+}
+#jiefangbei-first-content-img-container-2{
+	width: 43%;
+	justify-content: flex-start;
+	padding-right: 0px;
+	padding-left: 3.5em;
+}
+.jiefangbei-first-content-texts-container{
+	padding-left: 3em;
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#jiefangbei-first-content-texts-container-2{
+	width: 54%;
+	display: flex;
+	align-items: flex-end;
+	padding-left: 0px;
+	padding-right: 0em;
+}
+#jiefangbei-first-content-texts-container-2-mob{
+	display: none;
+}
+#jiefangbei-first-content-texts-container-2-aux{
+	width: 54%;
+}
+.jiefangbei-first-content-texts-container h2{
+	padding-top: 0.4em;
+	padding-bottom: 1em;
+	color: black;
+	line-height: 40px;
+	font-size: 1.75em;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+	width: 80%;
+}
+.jiefangbei-photo-description{
+	letter-spacing: 0.018em;
+	font-size: 0.9em;
+	color: grey;
+}
+.jiefangbei-first-content-texts-container p{
+	letter-spacing: 0.045em;
+	color: rgb(100, 100, 100);
+	font-family: 'Questrial', sans-serif !important;
+	font-size: 0.9em;
+	line-height: 22px;
+}
+#jiefangbei2{
+	height: 350px;
+	-webkit-box-shadow: -62px 52px 1px 3px rgba(0,0,0,0.04);
+	-moz-box-shadow: -62px 52px 1px 3px rgba(0,0,0,0.04);
+	box-shadow: -62px 52px 1px 3px rgba(0,0,0,0.04);
+}
+#jiefangbei3{
+	height: 380px;
+	-webkit-box-shadow: 61px 60px 2px -5px rgba(0,0,0,0.04);
+	-moz-box-shadow: 61px 60px 2px -5px rgba(0,0,0,0.04);
+	box-shadow: 61px 60px 2px -5px rgba(0,0,0,0.04);
+}
+
+/*JIEFANGBEI*/
+
+/*CONTENTS*/
+
+.content-title-1{
+	padding: 100px 0px 40px 0px;
+}
+.content-title-1 p{
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 2px;
+	font-size: 32px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+#reasons-content-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+	font-family: 'Quicksand', sans-serif;
+}
+#reasons-content-container-aux{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+.contents-grouper-2{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+.content-container-itself{
+	width: 50%;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+.content-image-container-itself{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 2em;
+}
+.content-image-container-itself img{
+	width: 100px;
+	height: 80px;
+}
+.content-title-container-itself h2{
+	text-align: center;
+	padding-bottom: 2em;
+	text-transform: uppercase;
+	letter-spacing: 0.6px;
+	font-size: 1.1em;
+}
+.content-title-p-container-itself{
+	display: flex;
+	justify-content: center;
+}
+.content-title-p-container-itself p{
+	letter-spacing: 0.1px;
+	color: rgb(60, 60, 60);
+	width: 85%;
+	line-height: 20px;
+	text-align: center;
+}
+#contents-first-border{
+	width: 50%;
+	border-bottom: 1px solid rgb(210, 210, 210);
+	padding-top: 6em;
+}
+
+.content-container-itself:hover{
+	text-decoration: none;
+}
+/*CONTENTS*/
+
+
+/*ABOUT US CONTENT*/
+#about-us-content-container{
+	position: relative;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 80px;
+}
+
+#about-us-content-container img{
+	width: 99vw;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#about-us-gradient{
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#about-us-title{
+	text-align: center;
+	font-size: 44px;
+	letter-spacing: 2px;
+	font-family: 'Questrial', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#about-us-description{
+	text-align: center;
+	line-height: 30px;
+	padding: 60px 25% 60px 25%;
+	font-size: 18px;
+	letter-spacing: 0.35px;
+}
+#about-us-content-container a{
+	color: white !important;
+
+}
+
+
+
+.button-centralizer{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+}
+#office-img-mob{
+	display: none;
+}
+#office-img{
+	display: inline-block;
+}
+
+/*ABOUT US CONTENT*/
+
+/*SEGURADORAS CONTENT*/
+
+#seguradoras-content-container{
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+#seguradoras-content-container p{
+	  font-size: 34px;
+	  text-transform: capitalize;
+	  font-family: 'Quicksand', sans-serif;
+	  text-align: center;
+	  padding-bottom: 80px;
+	  line-height: 45px;
+}
+
+#blank-line{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+#blank-line div{
+	width: 15%;
+	border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+#seguradoras-images-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 10% 0px 10%;
+	justify-content: center;
+}
+
+#seguradoras-content-container img{
+	width: 130px;
+	height: 85px;
+	padding: 55px 30px 30px 30px;
+}
+
+/*SEGURADORAS CONTENT*/
+
+
+
+
+@media(max-width: 1550px){
+	#background img{
+		height: 90vh;
+	}
+	#background-gradient{
+		height: 90vh;
+	}
+
+	#jiefangbei-first-content-texts-container-2-aux{
+		width: 65%;
+	}
+
+	.content-image-container-itself img{
+		width: 85px;
+		height: 65px;
+	}
+}
+
+@media(max-width: 1480px){
+	#background img{
+		height: 80vh;
+		min-height: 530px;
+	}
+	#background-gradient{
+		height: 80vh;
+		min-height: 530px;
+	}
+
+	#image-message{
+		font-size: 48px;
+	}
+
+	#jiefangbei2{
+		height: 280px;
+	}
+	#jiefangbei3{
+		height: 300px;
+	}
+}
+
+@media(max-width: 1315px){
+	#image-message{
+		font-size: 40px;
+	}
+	#background-gradient h1{
+		font-size: 20px;
+	}
+
+	.jiefangbei-first-content-texts-container{
+		width: 50%;
+	}
+	.jiefangbei-first-content-img-container{
+		width: 50%;
+	}
+
+
+	.jiefangbei-first-content-texts-container p{
+		font-size: 0.85em;
+	}
+	.jiefangbei-first-content-texts-container h2{
+		font-size: 1.6em;
+	}
+	#jiefangbei-first-content-texts-container-2-aux{
+		width: 80%;
+	}
+
+	.jscdtd1, .jscdtd2{
+		margin: 0px;
+	}
+
+	#reasons-content-container-aux{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#jiefangbei2{
+		height: 250px;
+	}
+	#jiefangbei3{
+		height: 250px;
+	}
+
+
+	#about-us-title{
+		font-size: 34px;
+	}
+	#about-us-description{
+		font-size: 14px;
+	}
+}
+
+@media(max-width: 1200px){
+	#about-us-gradient{
+		display: block;
+	}
+	#about-us-title{
+		padding-top: 25px;
+	}
+}
+
+@media(max-width: 1100px){
+	#jiefangbei-first-content-texts-container-2-aux{
+		width: 90%;
+	}
+
+	.jiefangbei-first-content-texts-container h2{
+		font-size: 22px;
+	}
+
+	#reasons-content-container-aux{
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	.content-title-container-itself h2{
+		font-size: 1em;
+	}
+	.content-title-p-container-itself p{
+		font-size: 0.9em;
+	}
+
+	#jiefangbei-first-content-texts-container-2{
+		width: 49%;
+	}
+	#jiefangbei-first-content-img-container-2, .jiefangbei-first-content-texts-container{
+		padding-left: 20px;
+	}
+
+	#jiefangbei2{
+		height: 250px;
+	}
+	#jiefangbei3{
+		height: 230px;
+	}
+
+
+	#office-img-mob{
+		display: inline-block;
+	}
+	#office-img{
+		display: none;
+	}
+	#about-us-gradient{
+		display: flex;
+	}
+	#about-us-title{
+		padding-top: 0px;
+	}
+}
+
+@media(max-width: 1050px){
+	#background{
+		padding-top: 72px;
+	}
+}
+
+@media(max-width: 950px){
+	#background img{
+		display: none;
+	}
+	#background-img-mob{
+		display: inline-block !important;
+	}
+
+	#background-gradient{
+		z-index: 1;
+	}
+
+	#image-message{
+		width: 90%;
+	}
+}
+
+@media(max-width: 900px){
+	#background-gradient{
+		width: 98vw !important;
+	}
+	#background-img-mob{
+		width: 98vw !important;
+	} 
+
+
+	#jiefangbei-top-content-container{
+		margin-bottom: 9em;
+	}
+	.jiefangbei-first-content-container{
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 3em;
+	}
+	.jiefangbei-first-content-img-container{
+		padding: 0px;
+		padding-bottom: 5.5em;
+		width: 100%;
+		justify-content: center;
+	}
+	.jiefangbei-first-content-texts-container{
+		padding: 0px;
+		width: 80%;
+	}
+	#jiefangbei-first-content-texts-container-2{
+		display: none;
+	}
+	#jiefangbei-first-content-texts-container-2-mob{
+		display: block;
+	}
+	#jiefangbei-first-content-texts-container-2-aux{
+		width: 100%;
+	}
+	#jiefangbei-first-content-img-container-2{
+		padding: 0px;
+		width: 100%;
+		padding-top: 3em;
+		padding-bottom: 5em;
+		justify-content: center;
+	}
+	.jiefangbei-first-content-texts-container p{
+		text-align: center;
+	}
+	.jiefangbei-photo-description{
+		display: none;
+	}
+	.jiefangbei-first-content-texts-container h2{
+		text-align: center;
+		width: 100%;
+	}
+
+
+	#reasons-content-container-aux{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contents-grouper-2{
+		width: 80%;
+		justify-content: space-between;
+		padding-bottom: 3.5em;
+	}
+}
+
+@media(max-width: 700px){
+	.content-presentation-image-container img{
+		height: 350px;
+		width: 270px;
+	}
+	#background-gradient-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	#content-cotacao-button-container{
+		display: flex;
+		justify-content: center;
+	}
+	#cotacao-button-image{
+		margin-top: 50px;
+	}
+
+	#background-gradient-content{
+		padding: 50px 40px 100px 40px;
+	}
+	#background-gradient h1{
+		font-size: 18px;
+	}
+	#text-slogan{
+		font-size: 12px;
+	}
+	#image-message{
+		font-size: 32px;
+	}
+
+
+	#about-us-description{
+		padding: 40px 7.5% 40px 7.5%;
+	}
+}
+
+@media(max-width: 550px){
+	#about-us-title{
+		line-height: 40px;
+		font-size: 28px;
+	}
+	#about-us-description{
+		font-size: 12px;
+	}
+	#about-us-link{
+		display: none;
+	}
+}
+
+@media(max-width: 520px){
+	#background-gradient-content {
+		padding: 50px 20px 100px 20px;
+	}
+
+
+	#jiefangbei2, #jiefangbei3{
+		box-shadow: none;
+	}
+	#jiefangbei3{
+		height: 280px;
+	}
+	.jiefangbei-first-content-img-container{
+		padding-bottom: 2em;
+	}
+	#jiefangbei-first-content-img-container-2{
+		padding-bottom: 3em !important;
+	}
+
+	.jscdtd1{
+		margin-bottom: 8%;
+	}
+
+	#about-us-content-container img{
+		width: 97vw;
+	}
+}
+
+@media(max-width: 495px){
+	#jiefangbei-top-content-container{
+		margin-bottom: 5em;
+	}
+	#jiefangbei-first-content-titles-container{
+		margin-left: 0px;
+		width: 90%;
+	}
+	#jiefangbei-first-content-titles-container h2, #jiefangbei-first-content-titles-container p{
+		text-align: center;
+	}
+
+	#jiefangbei3{
+		height: 210px;
+	}
+	#jiefangbei2{
+		height: 210px;
+	}
+
+	#seguradoras-content-container{
+		padding-top: 10px;
+	}
+	#seguradoras-content-container p{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

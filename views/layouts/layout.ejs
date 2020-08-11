@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="/css/layout_main.css">
+		<link rel="stylesheet" type="text/css" href="/css/partials/header.css">
+		<link rel="stylesheet" type="text/css" href="/css/partials/footer.css">
+		<link rel="stylesheet" type="text/css" href="/css/<%=page%>.css">
+		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Upright" rel="stylesheet">
+
+		<% if((page == "quotation") || (page == "contact")) { %>
+			<meta name="csrf-token" content="<%=csrfToken%>">
+			<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+		<% } %>
+		
+		<title>Mais Vantagens Corretora</title>
+	</head>
+	<body>
+		<%- include("../partials/header.ejs") %>
+		<%- body %>
+		<%- include("../partials/footer.ejs") %>
+		<script type="text/javascript" src="/js/partials/header.js"></script>
+		<script type="text/javascript" src="/js/<%=page%>.js"></script>
+	</body>
+</html>
